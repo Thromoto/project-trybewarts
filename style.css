@@ -35,3 +35,14 @@ main {
   display: flex;
   max-height: 20px;
 }
+
+section {
+  display: flex;
+}
+
+/* #label-family {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+
