@@ -40,9 +40,7 @@ section {
   display: flex;
 }
 
-/* #label-family {
+.emailHouse {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-} */
+}
 
