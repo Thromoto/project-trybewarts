@@ -47,6 +47,5 @@ section {
 #label-family {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
 }
 
