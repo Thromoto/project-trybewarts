@@ -14,7 +14,7 @@ botao.addEventListener('click', (event) => {
 const clkbotao = document.querySelector('#submit-btn');
 const clkcheck = document.querySelector('#agreement');
 
-clkcheck.addEventListener('change', function() {
+clkcheck.addEventListener('change', () => {
   if (clkcheck.checked === true) {
     clkbotao.disabled = false;
   } else {
