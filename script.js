@@ -10,3 +10,14 @@ botao.addEventListener('click', (event) => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const clkbotao = document.querySelector('#submit-btn');
+const clkcheck = document.querySelector('#agreement');
+
+clkcheck.addEventListener('change', function() {
+  if (clkcheck.checked === true) {
+    clkbotao.disabled = false;
+  } else {
+    clkbotao.disabled = true;
+  }
+});
