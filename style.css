@@ -1,6 +1,7 @@
 * {
   margin: 0;
   border: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header {
@@ -10,25 +11,92 @@
 }
 
 .trybewarts-header-logo {
-  max-width: 20%;
+  max-width: 30%;
 }
 
 #trybewarts-header-title {
   display: flex;
+  color: white;
+  align-items: center;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-self: center;
+}
+
+.email1 {
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.senha1 {
+  margin-left: 3px;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+#button {
+  margin-left: 5px;
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+  font-size: medium;
+  text-align: justify;
+  font-weight: bold;
 }
 
 main {
   display: flex;
+  /* border: solid black 1px; */
+  background-color: rgb(238, 238, 238);
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  /* border: solid red 1px; */
+  margin-left: 30px;
+  /* align-items: center; */
+}
+
+#avaliacao {
+  font-size: x-large;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#firstForms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+hr {
+  border: rgb(218, 218, 218) 1px solid;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#secondForms {
+  display: flex;
+  flex-direction: column;
+}
+
+#fourthForms {
+  display: flex;
+  flex-direction: column;
 }
 
 .trybewarts-login {
@@ -47,5 +115,42 @@ section {
 #label-family {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
+.familia {
+  margin-bottom: 10px;
+}
+
+#label-content {
+  margin-bottom: 10px;
+}
+
+.subject {
+  margin-bottom: 10px;
+}
+
+.radio {
+  margin-left: 5px;
+}
+
+#quadrado {
+  border: 1px solid purple;
+  border-radius: 3px;
+  width: 80%;
+}
+
+#submit-btn {
+  color: white;
+  background-color: purple;
+  width: 80%;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+footer {
+  font-size: smaller;
+  text-align: center;
+  color: rgb(61, 61, 61);
+}
